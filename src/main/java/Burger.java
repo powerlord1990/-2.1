@@ -1,4 +1,5 @@
 public class Burger {
+
     long identification;
     String productName;
     String burgerDescription;
