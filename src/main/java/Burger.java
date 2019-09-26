@@ -17,7 +17,6 @@ public class Burger {
     boolean burgerSous;
     int burgerPrice;
 
-
     Burger(long id, String name, String description, int weight, double protein, double grease, double carbohydrate,
            int buns, int cheese, int chickenCutlet, int cucumbers, int tomato, int beefCutlet, int salad, int onion,
            boolean sous, int price) {
