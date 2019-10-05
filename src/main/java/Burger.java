@@ -1,42 +1,42 @@
 public class Burger {
 
-    long identification;
-    String productName;
-    String burgerDescription;
-    int burgerWeight;
-    double burgerProtein;
-    double burgerGrease;
-    double burgerCarbohydrate;
-    int burgerBuns;
-    int burgerCheese;
-    int burgerChickenCutlet;
-    int burgerCucumbers;
-    int burgerTomato;
-    int burgerBeefCutlet;
-    int burgerSalad;
-    int burgerOnion;
-    boolean burgerSous;
-    int burgerPrice;
+    long id;
+    String name;
+    String description;
+    int weight;
+    double protein;
+    double grease;
+    double carbohydrate;
+    int buns;
+    int cheese;
+    int chickenCutlet;
+    int cucumbers;
+    int tomato;
+    int beefCutlet;
+    int salad;
+    int onion;
+    boolean sous;
+    int price;
 
     Burger(long id, String name, String description, int weight, double protein, double grease, double carbohydrate,
            int buns, int cheese, int chickenCutlet, int cucumbers, int tomato, int beefCutlet, int salad, int onion,
            boolean sous, int price) {
-        identification = id;
-        productName = name;
-        burgerDescription=description;
-        burgerWeight = weight;
-        burgerProtein = protein;
-        burgerGrease = grease;
-        burgerCarbohydrate = carbohydrate;
-        burgerBuns = buns;
-        burgerCheese = cheese;
-        burgerChickenCutlet = chickenCutlet;
-        burgerCucumbers = cucumbers;
-        burgerTomato = tomato;
-        burgerBeefCutlet = beefCutlet;
-        burgerSalad = salad;
-        burgerOnion = onion;
-        burgerSous = sous;
-        burgerPrice = price;
+        this.id = id;
+        this.name = name;
+        this.description=description;
+        this.weight = weight;
+        this.protein = protein;
+        this.grease = grease;
+        this.carbohydrate = carbohydrate;
+        this.buns = buns;
+        this.cheese = cheese;
+        this.chickenCutlet = chickenCutlet;
+        this.cucumbers = cucumbers;
+        this.tomato = tomato;
+        this.beefCutlet = beefCutlet;
+        this.salad = salad;
+        this.onion = onion;
+        this.sous = sous;
+        this.price = price;
     }
 }
